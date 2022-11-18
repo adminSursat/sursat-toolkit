@@ -1,8 +1,0 @@
-.flexContainer {
-  background-color: #d6eef8; 
-  background-image: url("../images/background.png");
-}
-
-body {
-  background-image: linear-gradient(to right, #1b181c, #2d2a78, #0960a7, #0090d1, #0960a7, #2d2a78, #1b181c);
-}

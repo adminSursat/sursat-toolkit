@@ -1,8 +1,0 @@
-.flexContainer {
-  background-color: lightgrey; 
-  background-image: url("../images/backgroundNino.png");
-}
-
-body {
-  background-image: linear-gradient(to right, #354052, #212632);
-}
