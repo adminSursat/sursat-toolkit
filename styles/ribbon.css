@@ -1,0 +1,180 @@
+.ribbonBlue, .ribbonGray, .ribbonGreen, .ribbonPurple, .ribbonRed, .ribbonYellow {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  overflow: hidden;
+  margin-top: -20px;
+  margin-left: 95px;
+}
+
+.ribbonBlue::before, .ribbonBlue::after {
+  display: block;
+  position: relative;
+  height: 10px;
+  width: 10px;
+  content: '';
+  background-color: #2980b9;
+}
+
+.ribbonBlue::before, .ribbonGray::before, .ribbonGreen::before, .ribbonPurple::before, .ribbonRed::before, .ribbonYellow::before {
+  margin-left: 1px;
+}
+
+.ribbonBlue::after, .ribbonGray::after, .ribbonGreen::after, .ribbonPurple::after, .ribbonRed::after, .ribbonYellow::after{
+  margin-top: 89px;	
+  margin-left: 100px;
+}
+
+.ribbonBlue span {
+  position: absolute;
+  display: block;
+  width: 180px;
+  padding: 7px 0;
+  background-color: #3097db; 
+  //color: #1e5f8a; /*texto en azul*/
+  color: #fff; /*texto en blanco*/
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3), 0px -1px 0px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); 
+  font: 700 14px/1 'Lato', sans-serif;
+  text-align: center;
+  left: -25px;
+  top: 30px;
+  transform: rotate(45deg);
+  z-index: 2;
+}
+
+.ribbonGray::before, .ribbonGray::after {
+ display: block;
+  position: relative;
+  height: 10px;
+  width: 10px;
+  content: '';
+  background-color: #5a5d5e;
+}
+
+.ribbonGray span {
+  position: absolute;
+  display: block;
+  width: 180px;
+  padding: 7px 0;
+  background-color: #919699; 
+  //color: #2c2d2e; /*texto en negro*/
+  color: #fff; /*texto en blanco*/
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3), 0px -1px 0px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); 
+  font: 700 14px/1 'Lato', sans-serif;
+  text-align: center;
+  left: -25px;
+  top: 30px;
+  transform: rotate(45deg);
+  z-index: 2;
+}
+
+.ribbonGreen::before, .ribbonGreen::after {
+  display: block;
+  position: relative;
+  height: 10px;
+  width: 10px;
+  content: '';
+  background-color: #2fba77;
+}
+
+.ribbonGreen span {
+  position: absolute;
+  display: block;
+  width: 180px;
+  padding: 7px 0;
+  background-color: #37db8c; 
+  //color: #228a58; /*texto en verde*/
+  color: #fff; /*texto en blanco*/
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3), 0px -1px 0px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);  
+  font: 700 14px/1 'Lato', sans-serif;
+  text-align: center;
+  left: -25px;
+  top: 30px;
+  transform: rotate(45deg);
+  z-index: 2;
+}
+
+.ribbonPurple::before, .ribbonPurple::after {
+  display: block;
+  position: relative;
+  height: 10px;
+  width: 10px;
+  content: '';
+  background-color: #8b73ba;
+}
+
+.ribbonPurple span {
+  position: absolute;
+  display: block;
+  width: 180px;
+  padding: 7px 0;
+  background-color: #a286d9; 
+  //color: #67558a; /*texto en violeta*/
+  color: #fff; /*texto en blanco*/
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3), 0px -1px 0px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);  
+  font: 700 14px/1 'Lato', sans-serif;
+  text-align: center;
+  left: -25px;
+  top: 30px;
+  transform: rotate(45deg);
+  z-index: 2;
+}
+
+.ribbonRed::before, .ribbonRed::after {
+  display: block;
+  position: relative;
+  height: 10px;
+  width: 10px;
+  content: '';
+  background-color: #ba4e4e;
+}
+
+.ribbonRed span {
+  position: absolute;
+  display: block;
+  width: 180px;
+  padding: 7px 0;
+  background-color: #db5c5c; 
+  //color: #8a3a3a; /*texto en rojo*/
+  color: #fff; /*texto en blanco*/
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3), 0px -1px 0px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); 
+  font: 700 14px/1 'Lato', sans-serif;
+  text-align: center;
+  left: -25px;
+  top: 30px;
+  transform: rotate(45deg);
+  z-index: 2;
+}
+
+
+.ribbonYellow::before, .ribbonYellow::after {
+  display: block;
+  position: relative;
+  height: 10px;
+  width: 10px;
+  content: '';
+  background-color: #d4bc44;
+}
+
+.ribbonYellow span {
+  position: absolute;
+  display: block;
+  width: 180px;
+  padding: 7px 0;
+  background-color: #f5d94e; 
+  color: #a38b34; /*texto en amarillo*/
+  //color: #fff; /*texto en blanco*/
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3), 0px -1px 0px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); 
+  font: 700 14px/1 'Lato', sans-serif;
+  text-align: center;
+  left: -25px;
+  top: 30px;
+  transform: rotate(45deg);
+  z-index: 2;
+}

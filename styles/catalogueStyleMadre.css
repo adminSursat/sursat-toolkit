@@ -1,0 +1,9 @@
+.flexContainer {
+  background-color: lightgrey; 
+  background-image: url("../images/backgroundMadre.png");
+}
+
+body {
+  //background-image: linear-gradient(to right, #354052, #212632);
+  background-color: #9fa4a6;
+}
