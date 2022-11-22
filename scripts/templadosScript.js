@@ -1,6 +1,7 @@
 //filtra el celular que queres buscarle templado 
 function filtrar() {
   var input, filter, table, tr, td, i, txtValue;
+  document.getElementById("abiertoCerrado").value = "todos";
   input = document.getElementById("busqueda");
   filter = input.value.toUpperCase();
   table = document.getElementById("templadosTable");
@@ -22,6 +23,7 @@ function filtrar() {
 //filtra los vidrios que son abiertos cerrados o muestra todos
 function tipoApertura() {
   var input, filter, table, tr, td, i, txtValue;
+  document.getElementById("busqueda").value = "";
   input = document.getElementById("abiertoCerrado");
   filter = input.value.toUpperCase();
   console.log(filter);
