@@ -1,18 +1,20 @@
 body {
   text-align: center;
   font: 14px 'Calibri', sans-serif;
+  min-width: 600px;
 }
 
 input[type=text] {
   border-radius: 5px;  
-  width: 20%;
+  width: 50%;
+  font-size: 1em;
 }
 
 table { 
-  width: 75%; 
+  width: 75%;
+  min-width: 468px;
   border-collapse: collapse; 
-  margin:50px auto;
-  border: 0px;
+  margin: 50px 12.5%;
 }
 
 tr:nth-of-type(odd) { 
