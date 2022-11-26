@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  font: 16px 'Calibri', sans-serif;
+  font: 14px 'Calibri', sans-serif;
   min-width: 600px;
   margin: 0px;
 }
@@ -12,6 +12,7 @@ input, select {
 input[type=text] {
   border-radius: 5px;  
   width: 50%;
+  font-size: 20px;
 }
 
 table { 
