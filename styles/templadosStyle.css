@@ -1,14 +1,17 @@
 body {
   text-align: center;
-  font: 14px 'Calibri', sans-serif;
+  font: 16px 'Calibri', sans-serif;
   min-width: 600px;
   margin: 0px;
+}
+
+input, select {
+  font-size: 100%;
 }
 
 input[type=text] {
   border-radius: 5px;  
   width: 50%;
-  font-size: 16px;
 }
 
 table { 
@@ -31,7 +34,6 @@ th {
 td, th { 
   padding: 5px; 
   text-align: center; 
-  font: 14px 'Calibri', sans-serif;
 }
 
 th:first-of-type {
