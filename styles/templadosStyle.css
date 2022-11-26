@@ -5,19 +5,11 @@ body {
   margin: 0px;
 }
 
-input, select {
-  font-size: 100%;
-}
-
 input[type=text] {
   border-radius: 5px;  
-  font-size: 20px;
-  width: 80%;
+  width: 50%;
 }
 
-select{
-  width: 10%;
-}
 
 table { 
   width: 75%;
