@@ -10,8 +10,8 @@ input[type=text] {
   width: 50%;
 }
 
-input, select {
-  font-size: max(100%, 16px); 
+select {
+  border-radius: 5px;
 }
 
 table { 
