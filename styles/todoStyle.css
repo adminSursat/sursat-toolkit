@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+  font: 14px 'Calibri', sans-serif;
+  min-width: 600px;
+  margin: 0px;
+}
+
+ul {
+  padding: 0;
+}
+
+.todo {
+  list-style-type: none;
+  font-size: 20px;
+  color: #d96262;
+  margin-bottom: 10px;
+}
